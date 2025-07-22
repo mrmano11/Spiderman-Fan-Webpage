@@ -1,0 +1,86 @@
+/* Background with Spider-Man image */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://getwallpapers.com/wallpaper/full/a/a/1/1030189-full-size-spiderman-wallpaper-1920x1080-hd-for-mobile.jpg') no-repeat center center/cover;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+/* Dark overlay for contrast */
+.overlay-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -1;
+}
+
+/* Form container */
+.login-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+  width: 100%;
+  max-width: 400px;
+  z-index: 1;
+}
+
+.form-box h2 {
+  text-align: center;
+  color: #ff0000;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+button {
+  padding: 12px;
+  background-color: #e62429;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b81d22;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+}
+
+span {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
