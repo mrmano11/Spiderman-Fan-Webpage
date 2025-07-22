@@ -39,5 +39,5 @@ _B.Tech AI & Data Science Student | Web & AI Enthusiast_
 
 ## 📬 Connect
 
-- [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/mohanarengan-s-6679632b7/))
+- [LinkedIn](https://www.linkedin.com/in/mohanarengan-s-6679632b7/)
 - [GitHub](https://github.com/mrmano11)
